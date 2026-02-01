@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.2.1] - 2026-02-01
+
+### Fixed
+
+- `transform` attributes are now applied after the schema is otherwise fully constructed. In particular, they're now applied after all other attributes are processed. (https://github.com/GREsau/schemars/issues/505)
+
 ## [1.2.0] - 2025-12-25 🎄
 
 ### Added
